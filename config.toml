@@ -1,0 +1,32 @@
+
+theme = "zerm"
+
+title =  "Strosel's Blog"
+
+# The URL the site will be built for
+base_url = "https://strosel.github.io/blog"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = true
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+#highlight_theme = "gruvbox-dark"
+highlight_theme = "agola-dark"
+
+[extra]
+author = "Axel P."
+show_author = false
+logo_text = "Strosel's Blog"
+
+theme_color = "red"
+center = true
+main_menu = []
+
+show_categories = true
+show_tags = true
